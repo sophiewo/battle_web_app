@@ -13,11 +13,8 @@ feature 'Enter Players' do
     expect(page).to have_content('Player 1 ?')
     expect(page).to have_content('Player 2 ?')
   end
-end
 
-feature 'Enter Players' do
-
-  scenario "should have form to enter two players" do
+  scenario "/names shows player names" do
     visit("/")
     fill_in 'player_1', with: "Sophie"
     fill_in 'player_2', with: "Rae"
