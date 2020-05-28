@@ -7,4 +7,7 @@ class Battle < Sinatra::Base
     erb(:form)
   end
 
+  post '/names' do
+    
+  end
 end
