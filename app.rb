@@ -4,7 +4,7 @@ class Battle < Sinatra::Base
 
 
   get '/' do
-    'Hello Battle!'
+    erb(:form)
   end
 
 end
