@@ -17,8 +17,8 @@ feature 'Enter Players' do
   scenario "/names shows player names" do
     visit("/")
     fill_in 'player_1', with: "Sophie"
-    fill_in 'player_2', with: "Rae"
+    fill_in 'player_2', with: "Bene"
     click_button("Submit")
-    expect(page).to have_content("Sophie vs. Rae")
+    expect(page).to have_content("Sophie vs. Bene")
   end
 end
