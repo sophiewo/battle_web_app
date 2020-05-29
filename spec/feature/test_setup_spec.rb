@@ -2,7 +2,7 @@ feature 'Testing infrastructure working!' do
 
   scenario "should print 'Hello Battle!'" do
     visit("/")
-    expect(page).to have_content('Hello Battle!')
+    expect(page).to have_content('Hello are you Ready to Battle!?')
   end
 end
 
