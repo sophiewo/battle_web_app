@@ -5,7 +5,7 @@ class Battle < Sinatra::Base
   enable :sessions
 
   get '/' do
-    erb(:form)
+    erb(:index)
   end
 
   post '/names' do
